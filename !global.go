@@ -7,7 +7,7 @@
 \*******************************************************************************/
 
 // ###############################  Variables ###############################  // Comments are always here
-minDeut = 25*1000*1000														   // Deut minimum for all bots.
+minDeut = 25*1000*1000                                                         // Deut minimum for all bots.
 me = (BotID)
 myself = GetBotByID(me)
 startTime = GetTimestamp()
@@ -20,10 +20,10 @@ statusID = myself.GetPlayerName()+".status"
 botCoords = [
     "M:#:#:#",
 ]
-sleepMinutes = sleepHours*60													// Global sleep minutes calculation
-sleepSeconds = sleepMinutes*60													// Global sleep seconds calulation 
-homeworld = GetHomeWorld()                                                     	// Where you are sending your resources from
-slots = GetSlots()																// Get slots
+sleepMinutes = sleepHours*60                                                    // Global sleep minutes calculation
+sleepSeconds = sleepMinutes*60                                                  // Global sleep seconds calulation 
+homeworld = GetHomeWorld()                                                      // Where you are sending your resources from
+slots = GetSlots()                                                              // Get slots
 now = GetTimeStamp()															
 // ###############################  Functions ###############################  //
 
