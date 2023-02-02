@@ -1,2 +1,2 @@
 # ogninja
-private repo for bots!
+repo for bots!
