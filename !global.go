@@ -24,7 +24,7 @@ sleepMinutes = sleepHours*60													// Global sleep minutes calculation
 sleepSeconds = sleepMinutes*60													// Global sleep seconds calulation 
 homeworld = GetHomeWorld()                                                     	// Where you are sending your resources from
 slots = GetSlots()																// Get slots
-now = GetTimeStamp()															/
+now = GetTimeStamp()															
 // ###############################  Functions ###############################  //
 
 // ################################  Dynamic ################################  //
